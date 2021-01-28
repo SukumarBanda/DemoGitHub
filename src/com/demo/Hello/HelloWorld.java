@@ -1,5 +1,6 @@
 package com.demo.Hello;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class HelloWorld {
@@ -11,6 +12,12 @@ public class HelloWorld {
 	}
 
 	public static void main(String[] args) {
+		
+		ArrayList<String> names = new ArrayList<String>();
+		names.add("Apple");
+		names.add("Banana");
+		names.add("Strawberry");
+		
 		System.out.print("Enter your name: ");
 		Scanner scan = new Scanner(System.in);
 		String str = scan.nextLine();
